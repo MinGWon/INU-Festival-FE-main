@@ -44,7 +44,7 @@ export default function Footer() {
       <h1>순창코등학교 커뮤니티 맵</h1>
       <p>이 웹은 인천대학교 대동제를 위해 제작된 웹사이트를 바탕으로 수정되었습니다. <br/> 제작자와 원본 레포지스토리는 다음과 같습니다.</h2>
       <Section>
-        <h2>Github: <a href="https://github.com/INU-CapstoneDesign/INU-Festival-FE">Frontend</a> | <a href="https://github.com/INU-CapstoneDesign/INU-Festival-BE">Backend</a></h2>
+        <p>Github: <p onClick={() => window.open("https://naver.com")}>Frontend</a> | <p onClick={() => window.open("https://naver.com")}>Backend</p></p>
         <h2>제작자 소개</h2>
         <Item>
           <h3>
