@@ -1,50 +1,51 @@
 import styled from 'styled-components';
 
 const Container = styled.div`
-  color: ${(props) => props.theme.colors.subText};
-  margin-bottom: 5rem;
-  font-style: normal;
-  font-weight: 510;
-  line-height: normal;
-  
-  h1 {
-    font-size: 20px;
-    letter-spacing: -0.6px;
-  }
-  h2 {
-    font-size: 15px;
-    letter-spacing: -0.45px;
-    margin-bottom: 1em;
-  }
-  p {
-    font-size: 13px;
-    font-weight: 400;
-    letter-spacing: -0.39px;
-    margin-bottom: 5px;
-  }
+    color: ${(props) => props.theme.colors.subText};
+    margin-bottom: 5rem;
+    font-style: normal;
+    font-weight: 510;
+    line-height: normal;
+
+    h1 {
+        font-size: 20px;
+        letter-spacing: -0.6px;
+    }
+    h2 {
+        font-size: 15px;
+        letter-spacing: -0.45px;
+        margin-bottom: 1em;
+    }
+    p {
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: -0.39px;
+        margin-bottom: 5px;
+    }
 `;
 
 const Section = styled.div`
-  margin-top: 18px;
+    margin-top: 18px;
 `;
 
 const Item = styled.div`
-  width: fit-content;
-  display: flex;
-  justify-content: space-between;
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
 
-  h3{
-    margin-right: 8px;
-  }
+    h3{
+        margin-right: 8px;
+    }
 `;
 
 export default function Footer() {
   return (
     <Container>
       <h1>순창코등학교 커뮤니티 맵</h1>
-      <p>이 웹은 인천대학교 대동제를 위해 제작된 웹사이트를 바탕으로 수정되었습니다. <br/> 제작자와 원본 레포지스토리는 다음과 같습니다.</h2>
+      <p>이 웹은 인천대학교 대동제를 위해 제작된 웹사이트를 바탕으로 수정되었습니다. <br/> 제작자와 원본 레포지스토리는 다음과 같습니다.</p>
       <Section>
-        <p>Github: <p onClick={() => window.open("https://naver.com")}>Frontend</a> | <p onClick={() => window.open("https://naver.com")}>Backend</p></p>
+        <h2>Github 레포지스토리</h2>
+        <p style={{ textDecorationLine: 'underline' }} onClick={() => window.open("https://github.com/INU-CapstoneDesign/INU-Festival-FE")}>Frontend</p><p style={{ textDecorationLine: 'underline' }} onClick={() => window.open("https://github.com/INU-CapstoneDesign/INU-Festival-BE")}>Backend</p>
         <h2>제작자 소개</h2>
         <Item>
           <h3>
