@@ -41,9 +41,11 @@ const Item = styled.div`
 export default function Footer() {
   return (
     <Container>
-      <h1>희희낙락</h1>
+      <h1>순창코등학교 커뮤니티 맵</h1>
+      <p>이 웹은 인천대학교 대동제를 위해 제작된 웹사이트를 바탕으로 수정되었습니다. <br/> 제작자와 원본 레포지스토리는 다음과 같습니다.</h2>
       <Section>
-        <h2>우리의 소개</h2>
+        <h2>Github: <a href="https://github.com/INU-CapstoneDesign/INU-Festival-FE">Frontend</a> | <a href="https://github.com/INU-CapstoneDesign/INU-Festival-BE">Backend</a></h2>
+        <h2>제작자 소개</h2>
         <Item>
           <h3>
             <p>Front End</p>
@@ -56,8 +58,8 @@ export default function Footer() {
         </Item>
       </Section>
       <Section>
-        <h2>서버 운영기간</h2>
-        <p>24.04.25 ~ 24.05.09</p>
+        <h2>운영기간</h2>
+        <p>25.04.25. ~ 24.05.09.</p>
       </Section>
       <Section>
         <p>Copyright 2024 희희낙락 All rights reserved.</p>
