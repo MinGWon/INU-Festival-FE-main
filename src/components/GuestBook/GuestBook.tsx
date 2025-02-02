@@ -220,7 +220,8 @@ export default function GuestBook() {
           ))
         }
         <div ref={messageEndRef} />
-        {!inputBanner && <Button onClick={handleWriteButton}>한 줄 외치기</Button>}
+        {/* {!inputBanner && <Button onClick={handleWriteButton}>한 줄 외치기</Button>} */}
+        {!inputBanner && <Button>한 줄 외치기(비활성화됨)</Button>}
       </Container>
       {inputBanner && (
         <BottomBanner>
